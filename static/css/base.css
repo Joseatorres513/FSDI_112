@@ -115,3 +115,35 @@ footer {
     padding: 32px;
     background: #f1f1f1;
 }
+
+lebron-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.lebron-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    animation: fadeInImage 2s forwards;
+}
+
+.lebron-caption {
+    font-size: 1.5rem;
+    color: #f1c40f;
+    margin-top: 10px;
+    text-shadow: 0 0 10px rgba(255, 223, 0, 0.7);
+}
+
+@keyframes fadeInImage {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
